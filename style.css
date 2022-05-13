@@ -1,0 +1,201 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f1f1f1;
+  font-family: 'Segoe UI';
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 24vh;
+}
+
+header h1 {
+  margin: 20px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container .right .article {
+  width: 100%;
+  margin-left: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.container .window {
+  background-color: #ccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  margin: 25px 0;
+  -webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container .window .tags-container {
+  background-color: #fff;
+  padding: 25px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container .window .tags-container span {
+  background-color: #ccc;
+  padding: 3px 10px;
+  font-weight: 400;
+  margin: 5px 3px;
+}
+
+.container .window .tags-container span:first-child {
+  background-color: #000;
+  color: #fff;
+}
+
+.container .window h2 {
+  margin: 20px 0;
+  padding-left: 15px;
+  font-weight: 500;
+}
+
+.container .window .post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 10px 0;
+  padding-left: 15px;
+  border-bottom: 0.1mm solid #ccc;
+  background-color: #fff;
+}
+
+.container .window .post img {
+  width: 10%;
+  padding-right: 25px;
+}
+
+.container .window .post h4 {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.container .window .post span {
+  font-weight: 300;
+}
+
+.container .article {
+  -webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 25px;
+  position: relative;
+}
+
+.container .article .article-image-container img {
+  width: 100%;
+}
+
+.container .article .content {
+  padding: 10px;
+}
+
+.container .article .content h2 {
+  margin: 15px 0;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.container .article .content span {
+  font-size: 1em;
+  font-weight: 300;
+  color: #494949;
+}
+
+.container .article .content span strong {
+  color: #000;
+}
+
+.container .article .content p {
+  font-size: 1rem;
+  margin: 20px 0;
+  color: #494949;
+}
+
+.container .article .content button {
+  background-color: transparent;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  font-size: 16px;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.container .article .content button:hover {
+  background-color: #ccc;
+}
+
+footer {
+  height: 24vh;
+  background-color: #616161;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 25px;
+}
+
+footer button {
+  padding: 10px 20px;
+}
+
+footer button:first-child {
+  background-color: #525252;
+  border: none;
+  outline: none;
+}
+
+footer span {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
